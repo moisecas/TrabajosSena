@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+img {
+    max-width: 50%;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ol {
+    list-style: none;
+    padding: 0;
+}
+
+nav ol li {
+    padding: 0.5em;
+    background-color: #e2e2e2;
+    margin-bottom: 0.5em;
+}
+
+nav ol li a {
+    color: #333;
+    text-decoration: none;
+}
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    body {
+        background-color: #fff;
+    }
+
+    header {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+}
